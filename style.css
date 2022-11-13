@@ -1,0 +1,183 @@
+
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+html.dark, .dark body {
+    font-size: 18px;
+    font-family: sans-serif;
+    background: #333333;
+    color: #fff;
+}
+
+.container {
+	display: flex;
+   align-items: center;
+	height: 500px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:50px;
+	background: #f1f1f1;
+	box-shadow: 0 0 6px rgba(0,0,0,25);
+	border: 1px solid #008ae7;
+	background: url(1111.png)right;
+	background-repeat: no-repeat;
+}
+
+.dark .container {
+	display: flex;
+	border: 1px solid #ff7518;
+    background: #3c3c3c;
+	box-shadow: 0 0 10px rgba(255,0,0);
+	background: url(111.png) right;
+	background-repeat: no-repeat;
+}
+
+.dark a {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+section, .section {
+    margin-bottom: 300px;
+}
+
+input, button, select, textarea {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+    outline: none;
+}
+
+input[type="range"] {
+    padding: 10px 0;
+}
+
+input:active, input:focus, textarea:active, textarea:focus, select:active, select:focus {
+    background:  #fff;
+}
+
+input[type="date"] {
+    padding: 8px 20px;
+}
+
+textarea {
+    resize: none;
+    width: 50%;
+}
+
+button:hover {
+    background: #ff7518;
+}
+
+button:active {
+    background: black;
+    color: #ff7518;
+}
+
+.form-div {
+    margin-bottom: 30px;
+}
+
+.out-block {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.section {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.section div {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: IndianRed;
+}
+
+.courses {
+    margin-top: 40px;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses a {
+    color: #222;
+}
+
+.dark .courses a {
+    color: #fff;
+}
+
+.active {
+    box-shadow: 0 0 10px #000;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.test-field{
+    min-height: 450px;
+    background: #ff7518;
+    position: relative;
+}
+
+
+
+.gallery img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+span.material-icons {
+  font-family: 'Material Icons';
+
+
+  font-size: 26px;  
+
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+.material-icons{
+	display:flex;
+	justify-content:flex-start;
+	  font-size: 26px;  
+	  
+}
+	
